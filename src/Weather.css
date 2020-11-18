@@ -1,0 +1,170 @@
+.Weather .card {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  box-shadow: 8px 8px 8px rgba(148, 148, 148, 0.8);
+}
+
+.Weather .header {
+  padding-bottom: 24px;
+}
+
+.Weather .date,
+.hour {
+  display: inline;
+  padding: 0 12px 0 0;
+  color: #ffffff;
+}
+
+.Weather .hour {
+  color: #cfd8dc;
+  position: relative;
+  left: 220px;
+}
+
+.Weather .search {
+  margin-bottom: 50px;
+}
+
+.Weather .search-engine button {
+  position: relative;
+  top: -43px;
+  left: 243px;
+  margin: 4px;
+  line-height: 1;
+}
+
+.Weather .search-engine {
+  max-width: 240px;
+  margin: 0 auto;
+}
+.Weather .search-engine label {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.Weather .coordinates {
+  font-size: 10px;
+  color: #cfd8dc;
+}
+
+.Weather form {
+  height: 60px;
+}
+
+.Weather .fa-search-location,
+.fa-compass {
+  color: #687378;
+}
+
+.Weather .form-control,
+.mb-2 {
+  font-size: 12px;
+}
+
+.Weather .chosen-city .location,
+.temperature {
+  text-align: right;
+  padding: 0;
+}
+
+.Weather .location,
+.temperature {
+  font-family: "Yantramanav", sans-serif;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.Weather h1 {
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 8px;
+}
+
+.Weather h2 {
+  font-size: 20px;
+}
+
+.Weather .temperature {
+  text-align: center;
+  font-weight: 900;
+  font-size: 82px;
+  padding-left: 8px;
+}
+
+.Weather .celsius {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  position: relative;
+  top: -40px;
+}
+
+.Weather .changeCurrentUnits,
+.changeForecastUnits {
+  color: #cfd8dc;
+  font-size: 11px;
+  position: relative;
+  top: -30px;
+  left: 70px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.Weather .changeForecastUnits {
+  left: 193px;
+  top: 0;
+}
+
+.Weather .maxMinTemp {
+  color: #ffffff;
+  position: relative;
+  left: 125px;
+  top: -21px;
+  font-size: 12px;
+}
+
+.Weather .weather-today,
+.forecastBox {
+  padding: 0 32px;
+  color: #cfd8dc;
+  text-align: center;
+}
+
+.Weather h3 {
+  text-align: left;
+  font-size: 20px;
+}
+
+.Weather .fa-temperature-low,
+.fa-tint,
+.fa-wind {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  font-size: 64px;
+  opacity: 0.1;
+}
+
+.Weather .weatherIcon {
+  position: relative;
+  top: -18px;
+  font-size: 64px;
+  width: 60px;
+}
+
+.Weather .parameter,
+.parameter-value,
+.parameter-unit,
+.five-day-weather .card {
+  font-family: "Yantramanav", sans-serif;
+}
+
+.Weather .parameter-value {
+  font-size: 36px;
+}
+
+.Weather .weatherDescription {
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  top: -32px;
+  left: 0;
+  margin: 0;
+}
