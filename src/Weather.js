@@ -136,7 +136,7 @@ export default function Weather() {
           <hr />
         </div>
       </div>
-      <p class="openSource"><a href="https://github.com/carolinapmd/my-first-app" target="_blank">Open-source code</a>, by Carolina Domingues 👩🏻‍💻</p>
+      <p class="openSource"><a href="https://github.com/carolinapmd/react-app">Open-source code</a>, by Carolina Domingues 👩🏻‍💻</p>
     </div>
   );
 }
